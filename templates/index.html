@@ -3,19 +3,20 @@
 <title>SCRAMBLE </title>
 <link rel="shortcut icon" type="image/png" href="http://icons.iconarchive.com/icons/chrisbanks2/cold-fusion-hd/128/Scramble-with-friends-icon.png" />
 </head>
-<body  bgcolor="black">
+<body  bgcolor="white">
 	<div align="center" id="content">
 		<h1 style="font-family:cursive;text-align:center; color:red"><i> Start Game</i></h1>
 		<form method=post>
+		<input type=hidden value={{orig_word}} name="clue">
 			<p style="font-family:cursive;text-align:center; color:red; font-size: 18px;">Your Question: {{new_word}}</p>
 			<p style="font-family:cursive;text-align:center; color:red; font-size: 18px;" >Type in your Answer: <input type=text name="answer"></p>
 			<input type=submit value="HURRY" align="center" width="75" height="75" style="font-size: 18px;">
 		</form>
 		<p style="text-align:center"><img src="/img/xLHyPA.gif" alt="Mountain View" align="bottom"></p>
 	</div>
-	
+
 	<div align="center" id="player">
-	<audio style="text-align:center" src="/music/good_enough.mp3"  controls>	
+	<audio style="text-align:center" src="/music/good_enough.mp3"  controls>
 	<p>Fallback content goes here.</p>
 	</audio>
 	</div>
